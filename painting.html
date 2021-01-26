@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="painting.css">
+    <title>VanillaJS_PaintJS</title>
+</head>
+<body>
+    <h1 class="title">Drawing Canvas</h1>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+        <div class="controls_range">
+            <input type="range" id="jsRange" min="0.1" max="5.0" value="2.5" step="0.1">
+        </div>
+        <div class="controls_btns">
+            <button id="jsMode">Fill</button>
+            <button id="jsSave">Save</button>
+        </div>
+        <div class="controls_colors" id="jsColors">
+           <div class="controls_color jsColor" style="background-color: black;"></div>
+           <div class="controls_color jsColor" style="background-color: white;"></div>
+           <div class="controls_color jsColor" style="background-color: red;"></div>
+           <div class="controls_color jsColor" style="background-color: orange;"></div>
+           <div class="controls_color jsColor" style="background-color: yellow;"></div>
+           <div class="controls_color jsColor" style="background-color: green;"></div>
+           <div class="controls_color jsColor" style="background-color: blue;"></div>
+           <div class="controls_color jsColor" style="background-color: navy;"></div>
+           <div class="controls_color jsColor" style="background-color: purple;"></div>
+        </div>
+    </div>
+
+    <script src="painting.js"></script>
+</body>
+</html>
